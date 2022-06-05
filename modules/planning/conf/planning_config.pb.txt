@@ -15,9 +15,9 @@ topic_config {
 # NO_LEARNING / E2E / HYBRID / RL_TEST / E2E_TEST / HYBRID_TEST
 learning_mode: NO_LEARNING
 standard_planning_config {
-  planner_type: PUBLIC_ROAD
+  planner_type: LATTICE
   planner_public_road_config {
-  }
+}
 }
 default_task_config: {
   task_type: PIECEWISE_JERK_PATH_OPTIMIZER
